@@ -1,9 +1,7 @@
-# React TypeScript Starter Pack
+Implement Products catalog following this design.
 
-To use this template click `Use this template`
+Use products and product details tо fetch data (use actual productId as a last part of the URL before .json).
 
-### Available Scripts
+Store the Cart in the localStorage
 
-`Deploy` - available to deploy your application to gh-pages
 
-`SCSS Preprocessor` - available to write your styles with modern style language

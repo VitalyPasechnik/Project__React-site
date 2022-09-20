@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 import React, { useContext } from 'react';
 
 import { NavLink } from 'react-router-dom';
@@ -32,7 +33,8 @@ export const ProductsList: React.FC<Props> = ({ goods }) => {
             >
               <img
                 className="ProductsList__img"
-                src={require(`./${good.imageUrl}`)}
+                // eslint-disable-next-line global-require, import/no-dynamic-require
+                src={require(`./${good.imageUrl}`).default}
                 alt={good.name}
               />
               <p className="ProductsList__title">

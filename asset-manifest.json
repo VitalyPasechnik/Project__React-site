@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.604b758a.chunk.css",
+    "main.js": "./static/js/main.2209cb43.chunk.js",
+    "main.js.map": "./static/js/main.2209cb43.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8c9895b1.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8c9895b1.js.map",
+    "static/js/2.c2f1afae.chunk.js": "./static/js/2.c2f1afae.chunk.js",
+    "static/js/2.c2f1afae.chunk.js.map": "./static/js/2.c2f1afae.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.604b758a.chunk.css.map": "./static/css/main.604b758a.chunk.css.map",
+    "static/js/2.c2f1afae.chunk.js.LICENSE.txt": "./static/js/2.c2f1afae.chunk.js.LICENSE.txt",
+    "static/media/header.scss": "./static/media/Search.eb670dd9.svg",
+    "static/media/category.scss": "./static/media/Filter3.b914f412.png",
+    "static/media/catalogList.scss": "./static/media/Right.e028d388.svg",
+    "static/media/productDetailsPage.scss": "./static/media/Red-hurt.d554a185.svg",
+    "static/media/section.scss": "./static/media/Left.7460d679.svg",
+    "static/media/App.scss": "./static/media/Mont-SemiBold.8979d71a.otf",
+    "static/media/footer.scss": "./static/media/img_header_logo.13ce922e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c9895b1.js",
+    "static/js/2.c2f1afae.chunk.js",
+    "static/css/main.604b758a.chunk.css",
+    "static/js/main.2209cb43.chunk.js"
+  ]
+}

@@ -31,7 +31,7 @@ export const ProductsList: React.FC<Props> = ({ goods }) => {
             >
               <img
                 className="ProductsList__img"
-                src={`./${good.imageUrl}`}
+                src={`${good.imageUrl}`}
                 alt={good.name}
               />
               <p className="ProductsList__title">

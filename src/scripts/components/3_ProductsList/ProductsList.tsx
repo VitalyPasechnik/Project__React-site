@@ -35,16 +35,6 @@ export const ProductsList: React.FC<Props> = ({ goods }) => {
                 src={`./${good.imageUrl}`}
                 alt={good.name}
               />
-              <img
-                className="ProductsList__img"
-                src={`../${good.imageUrl}`}
-                alt={good.name}
-              />
-              <img
-                className="ProductsList__img"
-                src={`${good.imageUrl}`}
-                alt={good.name}
-              />
               <p className="ProductsList__title">
                 {good.name}
               </p>

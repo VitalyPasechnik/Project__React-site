@@ -10,10 +10,10 @@ export const HomePage: React.FC = () => {
   } = useContext(Context);
 
   const images = [
-    '../img/Slider/Banner.png',
-    '../img/Slider/3.webp',
-    '../img/Slider/banner3.webp',
-    '../img/Slider/banner4.webp',
+    './img/Slider/Banner.png',
+    './img/Slider/3.webp',
+    './img/Slider/banner3.webp',
+    './img/Slider/banner4.webp',
   ];
 
   return (

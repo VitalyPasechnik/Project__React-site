@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './slider-banner.scss';
 
 type Props = {
@@ -18,7 +18,13 @@ export const SliderBanner: React.FC<Props> = ({ image }) => {
     }
   };
 
-  setTimeout(() => chooseItem(1), 5000);
+  useEffect(() => {
+    const timeOutId = setTimeout(() => chooseItem(1), 5000);
+
+    return () => {
+      clearTimeout(timeOutId);
+    };
+  }, []);
 
   return (
     <>

@@ -68,6 +68,9 @@ export const CartList: React.FC = () => {
     }
   }, [cartList]);
 
+  // // eslint-disable-next-line no-console
+  // console.log(cartList);
+
   return (
     <div className="cartList">
       {cartList.length > 0 && (

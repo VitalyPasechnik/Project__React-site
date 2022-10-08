@@ -81,45 +81,49 @@ export const ProductsList: React.FC<Props> = ({ goods }) => {
             <div className="ProductsList__action">
 
               {cartList.includes(good) ? (
-                <a
+                <button
                   title="favourites"
-                  href="#favourites"
+                  type="button"
+                  // href="#favourites"
                   className="ProductsList__button-added"
                   onClick={() => toggleCart(good)}
                 >
                   Added to cart
-                </a>
+                </button>
               ) : (
-                <a
+                <button
                   title="favourites"
-                  href="#favourites"
+                  type="button"
+                  // href="#favourites"
                   className="ProductsList__button"
                   onClick={() => toggleCart(good)}
                 >
                   Add to cart
-                </a>
+                </button>
               )}
 
               {favList.includes(good) ? (
-                <a
+                <button
                   className="ProductsList__button-hurt"
                   title="favourites"
+                  type="button"
                   data-cy="addToFavorite"
-                  href="#favourites"
+                  // href="#favourites"
                   onClick={() => toggleFav(good)}
                 >
                   <span className="ProductsList__favourites-red" />
-                </a>
+                </button>
               ) : (
-                <a
+                <button
                   className="ProductsList__button-hurt"
                   data-cy="addToFavorite"
                   title="favourites"
-                  href="#favourites"
+                  type="button"
+                  // href="#favourites"
                   onClick={() => toggleFav(good)}
                 >
                   <span className="ProductsList__favourites" />
-                </a>
+                </button>
               )}
             </div>
           </li>

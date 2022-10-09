@@ -18,7 +18,7 @@ export const ProductsList: React.FC<Props> = ({ goods }) => {
   } = useContext(Context);
 
   return (
-    <div className="ProductsList" data-cy="cardsContainer">
+    <div className="ProductsList" daabusta-cy="cardsContainer">
       <ul className="ProductsList__container">
         {goods.map(good => (
           <li

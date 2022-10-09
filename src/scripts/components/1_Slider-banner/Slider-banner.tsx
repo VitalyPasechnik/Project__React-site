@@ -41,7 +41,7 @@ export const SliderBanner: React.FC<Props> = ({ image }) => {
         <div className="slider-banner__main">
           <img
             className="slider__main-photos"
-            src={`../../${image[num]}`}
+            src={`${image[num]}`}
             alt={image[num]}
           />
         </div>

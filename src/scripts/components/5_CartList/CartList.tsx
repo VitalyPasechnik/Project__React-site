@@ -102,7 +102,7 @@ export const CartList: React.FC = () => {
                 <div className="cartList__wrap-items">
                   <img
                     className="cartList__img"
-                    src={`../../${good.imageUrl}`}
+                    src={`${good.imageUrl}`}
                     alt={good.name}
                   />
 

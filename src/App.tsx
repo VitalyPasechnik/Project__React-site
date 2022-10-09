@@ -38,20 +38,20 @@ export const App: React.FC = () => {
   };
 
   const toggleCart = (item: IGood) => {
-    if (cartList.includes(item)) {
+    if (cartList.some((favGood: { id: string; }) => favGood.id === item.id)) {
       setcartList(cartList.filter(good => good.id !== item.id));
     } else {
-      cartList.push(item);
+      setcartList(prevState => [...prevState, item]);
     }
 
     localStorage.setItem('cart', JSON.stringify(cartList));
   };
 
   const toggleFav = (item: IGood) => {
-    if (favList.includes(item)) {
+    if (favList.some((favGood: { id: string; }) => favGood.id === item.id)) {
       setFavList(favList.filter(good => good.id !== item.id));
     } else {
-      favList.push(item);
+      setFavList(prevState => [...prevState, item]);
     }
 
     localStorage.setItem('favorites', JSON.stringify(favList));

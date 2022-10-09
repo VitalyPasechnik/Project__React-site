@@ -80,7 +80,7 @@ export const ProductsList: React.FC<Props> = ({ goods }) => {
 
             <div className="ProductsList__action">
 
-              {cartList.includes(good) ? (
+              {cartList.some((favGood: { id: string; }) => favGood.id === good.id) ? (
                 <button
                   title="favourites"
                   type="button"
@@ -102,7 +102,7 @@ export const ProductsList: React.FC<Props> = ({ goods }) => {
                 </button>
               )}
 
-              {favList.includes(good) ? (
+              {favList.some((favGood: { id: string; }) => favGood.id === good.id) ? (
                 <button
                   className="ProductsList__button-hurt"
                   title="favourites"

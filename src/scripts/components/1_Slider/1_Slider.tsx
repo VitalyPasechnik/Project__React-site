@@ -26,7 +26,7 @@ export const Slider: React.FC<Props> = ({ image }) => {
               onClick={() => setImg(item)}
             >
               <img
-                src={`../${item}`}
+                src={`${item}`}
                 className="slider__small-img"
                 alt={item}
               />
@@ -37,7 +37,7 @@ export const Slider: React.FC<Props> = ({ image }) => {
         <div className="slider__main-photo">
           <img
             className="slider__main-img"
-            src={`../${img}`}
+            src={`${img}`}
             alt={img}
           />
         </div>

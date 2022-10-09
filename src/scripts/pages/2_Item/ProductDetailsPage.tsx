@@ -292,7 +292,3 @@ export const ProductDetailsPage: React.FC = () => {
     </div>
   );
 };
-
-// {/* <NavLink
-//               to={good.id}
-//             > */}
